@@ -1,0 +1,40 @@
+li.permission_name {
+    list-style-type: none;
+    background: #0032ff;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+}
+div.perWrapper{
+    display: none;
+}
+ul.ul_permission_wrap {
+    display: flex;
+}
+
+.toggle_eye
+{
+    cursor: pointer;
+}
+label{
+    font-weight: bold;
+}
+span.error {
+    color: red;
+}
+td.dt-type-date {
+    text-align: left !IMPORTANT;
+}
+td.dt-type-numeric.sorting_1 {
+    text-align: left !important;
+}
+th.dt-type-date.dt-orderable-asc {
+    text-align: left !important;
+}
+
+.loadingGift{
+    max-width: 100px;
+    margin: auto;
+}
