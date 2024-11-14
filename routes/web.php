@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\MemberController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\RoleController;
@@ -19,9 +20,15 @@ Route::group(['middleware' => ['auth']], function() {
         Route::prefix("users")->group(function(){
             Route::get("/roleBassedPermission",[UserController::class,"roleBassedPermission"])->name("role.bassed.permission");
         });
+
         Route::resource('roles', controller: RoleController::class);
         Route::resource('users', UserController::class);
         Route::resource('permission', PermissionController::class);
+
+        //Member Route Start Form Here
+        Route::resource("member",MemberController::class);
+        //Member Route End Form Here
+
     });
 });
 

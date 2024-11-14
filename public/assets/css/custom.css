@@ -38,3 +38,8 @@ th.dt-type-date.dt-orderable-asc {
     max-width: 100px;
     margin: auto;
 }
+
+div.row div.col-6{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

@@ -16,12 +16,12 @@
         </a>
         <ul id="member-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
            <li>
-                <a href="{{ route('roles.index') }}">
+                <a href="{{ route('member.index') }}">
                     <i class="bi bi-circle"></i><span>View Member</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('roles.create') }}">
+                <a href="{{ route('member.create') }}">
                     <i class="bi bi-circle"></i><span>Add Member</span>
                 </a>
             </li>

@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title',"Role Create Page")
 @section('content')
     <div class="row">
         <div class="col-12 m-auto">
