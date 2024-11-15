@@ -24,9 +24,11 @@ ul.ul_permission_wrap {
 label{
     font-weight: bold;
 }
-span.error {
+/* error css start form here*/
+span.error,span.error_msg {
     color: red;
 }
+/* error css end form here*/
 td.dt-type-date {
     text-align: left !IMPORTANT;
 }
@@ -66,3 +68,9 @@ p.inactive {
     color: white;
 }
 /* for status css  */
+/* for table image css start form here*/
+img.table_img{
+    width: 50px;
+    height: 50px;
+}
+/* for table image css end form here*/

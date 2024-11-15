@@ -73,18 +73,18 @@
     </li><!-- End Product Nav -->
 
     <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#doctors-nav" data-bs-toggle="collapse" href="#">
-             <i class="fas fa-user-md"></i><span>Doctors</span><i class="bi bi-chevron-down ms-auto"></i>
+        <a class="nav-link collapsed" data-bs-target="#investor-nav" data-bs-toggle="collapse" href="#">
+             <i class="fas fa-user-md"></i><span>Investor</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-        <ul id="doctors-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <ul id="investor-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
            <li>
-                <a href="{{ route('roles.index') }}">
-                    <i class="bi bi-circle"></i><span>View Doctors</span>
+                <a href="{{ route('investor.index') }}">
+                    <i class="bi bi-circle"></i><span>View Investor</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('roles.create') }}">
-                    <i class="bi bi-circle"></i><span>Add Doctors</span>
+                <a href="{{ route('investor.create') }}">
+                    <i class="bi bi-circle"></i><span>Add Investor</span>
                 </a>
             </li>
         </ul>

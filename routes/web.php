@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\InvestorController;
 use App\Http\Controllers\Admin\MemberController;
 use App\Http\Controllers\Admin\NoteController;
 use Illuminate\Support\Facades\Auth;
@@ -32,6 +33,9 @@ Route::group(['middleware' => ['auth']], function() {
         //Notice Route Start Form Here
         Route::resource('note',NoteController::class);
         //Notice Route End Form Here
+        //Investor Route Start Form Here
+        Route::resource('investor',InvestorController::class);
+         //Investor Route End Form Here
     });
 });
 

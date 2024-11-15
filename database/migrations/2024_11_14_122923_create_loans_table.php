@@ -29,7 +29,7 @@ return new class extends Migration
             $table->enum('type',['loan','loan_return']);
             $table->integer('amount');
             $table->date('date');
-            $table->text('description');
+            $table->text('description')->nullable();
             $table->timestamp('created_at')
             ->useCurrent();
             $table->timestamp('updated_at')

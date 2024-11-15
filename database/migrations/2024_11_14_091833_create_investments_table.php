@@ -29,7 +29,7 @@ return new class extends Migration
             ->onDelete('cascade');
 
             $table->integer('investment_qty');
-            $table->string('note');
+            $table->string('note')->nullable();
             $table->date('date');
             $table->timestamp('created_at')
             ->useCurrent();

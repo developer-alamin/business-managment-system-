@@ -16,10 +16,10 @@ return new class extends Migration
             $table->char('member_id');
             $table->char('name');
             $table->char('phone');
-            $table->char('alt_phone');
-            $table->text('address');
+            $table->char('alt_phone')->nullable();
+            $table->text('address')->nullable();
             $table->date('date');
-            $table->char('refer_by');
+            $table->char('refer_by')->nullable();
             $table->timestamp('created_at')
             ->useCurrent();
             $table->timestamp('updated_at')

@@ -17,9 +17,9 @@ return new class extends Migration
             $table->char('email');
             $table->char('phone');
             $table->char('alt_phone')->nullable();
-            $table->binary('photo');
-            $table->text(column: 'address');
-            $table->binary('attachments');
+            $table->binary('photo')->nullable();
+            $table->text(column: 'address')->nullable();
+            $table->binary('attachments')->nullable();
             $table->timestamp('created_at')
             ->useCurrent();
             $table->timestamp('updated_at')

@@ -30,7 +30,7 @@ return new class extends Migration
             $table->char('payment_info');
             $table->integer('amount');
             $table->date('date');
-            $table->text('description');
+            $table->text('description')->nullable();
             $table->timestamp('created_at')
             ->useCurrent();
             $table->timestamp('updated_at')

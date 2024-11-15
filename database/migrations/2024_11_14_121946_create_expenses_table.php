@@ -32,7 +32,7 @@ return new class extends Migration
 
             $table->char('payment_info');
             $table->integer('amount');
-            $table->text('description');
+            $table->text('description')->nullable();
 
             $table->date('date');
             $table->timestamp('created_at')

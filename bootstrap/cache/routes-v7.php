@@ -13,7 +13,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::2gMJeQsXLy3g8wrN',
+            '_route' => 'generated::xKuIrLhApHyI9924',
           ),
           1 => NULL,
           2 => 
@@ -33,7 +33,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::v7G0JnDXdKn3QY7U',
+            '_route' => 'generated::0Ndg8EraqPVGIM4q',
           ),
           1 => NULL,
           2 => 
@@ -367,6 +367,62 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/dashboard/investor' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investor.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investor.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/investor/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investor.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/login' => 
       array (
         0 => 
@@ -390,7 +446,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::p74geVm2AyJHhK30',
+            '_route' => 'generated::jASV6OGqLGmxVrzt',
           ),
           1 => NULL,
           2 => 
@@ -445,7 +501,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::oQE1mqWM8JsLqPl5',
+            '_route' => 'generated::bfTkSa5JrrEZKvk5',
           ),
           1 => NULL,
           2 => 
@@ -536,7 +592,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::jDlvEs0IpPbq5Crs',
+            '_route' => 'generated::mCNrFFTPhp63ltUK',
           ),
           1 => NULL,
           2 => 
@@ -552,7 +608,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/dashboard/(?|roles/([^/]++)(?|(*:38)|/edit(*:50)|(*:57))|users/([^/]++)(?|(*:82)|/edit(*:94)|(*:101))|permission/([^/]++)(?|(*:132)|/edit(*:145)|(*:153))|member/([^/]++)(?|(*:180)|/edit(*:193)|(*:201))|note/([^/]++)(?|(*:226)|/edit(*:239)|(*:247)))|/password/reset/([^/]++)(*:281)|/storage/(.*)(*:302))/?$}sDu',
+      0 => '{^(?|/dashboard/(?|roles/([^/]++)(?|(*:38)|/edit(*:50)|(*:57))|users/([^/]++)(?|(*:82)|/edit(*:94)|(*:101))|permission/([^/]++)(?|(*:132)|/edit(*:145)|(*:153))|member/([^/]++)(?|(*:180)|/edit(*:193)|(*:201))|note/([^/]++)(?|(*:226)|/edit(*:239)|(*:247))|investor/([^/]++)(?|(*:276)|/edit(*:289)|(*:297)))|/password/reset/([^/]++)(*:331)|/storage/(.*)(*:352))/?$}sDu',
     ),
     3 => 
     array (
@@ -996,7 +1052,95 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      281 => 
+      276 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investor.show',
+          ),
+          1 => 
+          array (
+            0 => 'investor',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      289 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investor.edit',
+          ),
+          1 => 
+          array (
+            0 => 'investor',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      297 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investor.update',
+          ),
+          1 => 
+          array (
+            0 => 'investor',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investor.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'investor',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      331 => 
       array (
         0 => 
         array (
@@ -1019,7 +1163,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      302 => 
+      352 => 
       array (
         0 => 
         array (
@@ -1057,7 +1201,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::2gMJeQsXLy3g8wrN' => 
+    'generated::xKuIrLhApHyI9924' => 
     array (
       'methods' => 
       array (
@@ -1072,7 +1216,7 @@ app('router')->setCompiledRoutes(
 
                     return \\Illuminate\\Support\\Facades\\View::file(\'G:\\\\laravel project\\\\Naim Vai\\\\Business Managment System\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\');
                 }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000004e10000000000000000";}}',
-        'as' => 'generated::2gMJeQsXLy3g8wrN',
+        'as' => 'generated::xKuIrLhApHyI9924',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1088,7 +1232,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::v7G0JnDXdKn3QY7U' => 
+    'generated::0Ndg8EraqPVGIM4q' => 
     array (
       'methods' => 
       array (
@@ -1110,7 +1254,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::v7G0JnDXdKn3QY7U',
+        'as' => 'generated::0Ndg8EraqPVGIM4q',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2522,6 +2666,270 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'investor.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investor',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investor.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestorController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestorController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investor.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investor/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investor.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestorController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestorController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investor.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/investor',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investor.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestorController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestorController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investor.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investor/{investor}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investor.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestorController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestorController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investor.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investor/{investor}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investor.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestorController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestorController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investor.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/investor/{investor}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investor.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestorController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestorController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investor.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/investor/{investor}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investor.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestorController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestorController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'login' => 
     array (
       'methods' => 
@@ -2559,7 +2967,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::p74geVm2AyJHhK30' => 
+    'generated::jASV6OGqLGmxVrzt' => 
     array (
       'methods' => 
       array (
@@ -2579,7 +2987,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::p74geVm2AyJHhK30',
+        'as' => 'generated::jASV6OGqLGmxVrzt',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2668,7 +3076,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::oQE1mqWM8JsLqPl5' => 
+    'generated::bfTkSa5JrrEZKvk5' => 
     array (
       'methods' => 
       array (
@@ -2688,7 +3096,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::oQE1mqWM8JsLqPl5',
+        'as' => 'generated::bfTkSa5JrrEZKvk5',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2887,7 +3295,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::jDlvEs0IpPbq5Crs' => 
+    'generated::mCNrFFTPhp63ltUK' => 
     array (
       'methods' => 
       array (
@@ -2907,7 +3315,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::jDlvEs0IpPbq5Crs',
+        'as' => 'generated::mCNrFFTPhp63ltUK',
       ),
       'fallback' => false,
       'defaults' => 
