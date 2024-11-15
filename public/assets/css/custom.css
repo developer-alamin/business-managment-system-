@@ -51,3 +51,18 @@ div.row div.col-6{
 .modal.fade .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(.5);transform: translate(0,0)scale(.5);}
 .modal.show .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(1);transform: translate(0,0)scale(1);}
 /* for modal zoom in css */
+
+/* for status css  */
+p.active {
+    background: green;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+}
+p.inactive {
+    background: red;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+}
+/* for status css  */

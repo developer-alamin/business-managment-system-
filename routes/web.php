@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\MemberController;
+use App\Http\Controllers\Admin\NoteController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\RoleController;
@@ -28,7 +29,9 @@ Route::group(['middleware' => ['auth']], function() {
         //Member Route Start Form Here
         Route::resource("member",MemberController::class);
         //Member Route End Form Here
-
+        //Notice Route Start Form Here
+        Route::resource('note',NoteController::class);
+        //Notice Route End Form Here
     });
 });
 

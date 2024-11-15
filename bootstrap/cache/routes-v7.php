@@ -13,7 +13,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::HtY4QNNZy2FCpNRR',
+            '_route' => 'generated::2gMJeQsXLy3g8wrN',
           ),
           1 => NULL,
           2 => 
@@ -33,7 +33,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::NSVCkVIz0DZJLpxw',
+            '_route' => 'generated::v7G0JnDXdKn3QY7U',
           ),
           1 => NULL,
           2 => 
@@ -311,6 +311,62 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/dashboard/note' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'note.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'note.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/note/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'note.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/login' => 
       array (
         0 => 
@@ -334,7 +390,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::Wgg9vtW5Sp2usmQg',
+            '_route' => 'generated::p74geVm2AyJHhK30',
           ),
           1 => NULL,
           2 => 
@@ -389,7 +445,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::tbG1D2aFz9YtdnSP',
+            '_route' => 'generated::oQE1mqWM8JsLqPl5',
           ),
           1 => NULL,
           2 => 
@@ -480,7 +536,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::SbVFRWJmxg7TIZpy',
+            '_route' => 'generated::jDlvEs0IpPbq5Crs',
           ),
           1 => NULL,
           2 => 
@@ -496,7 +552,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/dashboard/(?|roles/([^/]++)(?|(*:38)|/edit(*:50)|(*:57))|users/([^/]++)(?|(*:82)|/edit(*:94)|(*:101))|permission/([^/]++)(?|(*:132)|/edit(*:145)|(*:153))|member/([^/]++)(?|(*:180)|/edit(*:193)|(*:201)))|/password/reset/([^/]++)(*:235)|/storage/(.*)(*:256))/?$}sDu',
+      0 => '{^(?|/dashboard/(?|roles/([^/]++)(?|(*:38)|/edit(*:50)|(*:57))|users/([^/]++)(?|(*:82)|/edit(*:94)|(*:101))|permission/([^/]++)(?|(*:132)|/edit(*:145)|(*:153))|member/([^/]++)(?|(*:180)|/edit(*:193)|(*:201))|note/([^/]++)(?|(*:226)|/edit(*:239)|(*:247)))|/password/reset/([^/]++)(*:281)|/storage/(.*)(*:302))/?$}sDu',
     ),
     3 => 
     array (
@@ -852,7 +908,95 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      235 => 
+      226 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'note.show',
+          ),
+          1 => 
+          array (
+            0 => 'note',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      239 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'note.edit',
+          ),
+          1 => 
+          array (
+            0 => 'note',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      247 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'note.update',
+          ),
+          1 => 
+          array (
+            0 => 'note',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'note.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'note',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      281 => 
       array (
         0 => 
         array (
@@ -875,7 +1019,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      256 => 
+      302 => 
       array (
         0 => 
         array (
@@ -913,7 +1057,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::HtY4QNNZy2FCpNRR' => 
+    'generated::2gMJeQsXLy3g8wrN' => 
     array (
       'methods' => 
       array (
@@ -928,7 +1072,7 @@ app('router')->setCompiledRoutes(
 
                     return \\Illuminate\\Support\\Facades\\View::file(\'G:\\\\laravel project\\\\Naim Vai\\\\Business Managment System\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\');
                 }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000004e10000000000000000";}}',
-        'as' => 'generated::HtY4QNNZy2FCpNRR',
+        'as' => 'generated::2gMJeQsXLy3g8wrN',
       ),
       'fallback' => false,
       'defaults' => 
@@ -944,7 +1088,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::NSVCkVIz0DZJLpxw' => 
+    'generated::v7G0JnDXdKn3QY7U' => 
     array (
       'methods' => 
       array (
@@ -966,7 +1110,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::NSVCkVIz0DZJLpxw',
+        'as' => 'generated::v7G0JnDXdKn3QY7U',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2114,6 +2258,270 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'note.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/note',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'note.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\NoteController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\NoteController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'note.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/note/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'note.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\NoteController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\NoteController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'note.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/note',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'note.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\NoteController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\NoteController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'note.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/note/{note}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'note.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\NoteController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\NoteController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'note.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/note/{note}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'note.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\NoteController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\NoteController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'note.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/note/{note}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'note.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\NoteController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\NoteController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'note.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/note/{note}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'note.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\NoteController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\NoteController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'login' => 
     array (
       'methods' => 
@@ -2151,7 +2559,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::Wgg9vtW5Sp2usmQg' => 
+    'generated::p74geVm2AyJHhK30' => 
     array (
       'methods' => 
       array (
@@ -2171,7 +2579,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::Wgg9vtW5Sp2usmQg',
+        'as' => 'generated::p74geVm2AyJHhK30',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2260,7 +2668,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::tbG1D2aFz9YtdnSP' => 
+    'generated::oQE1mqWM8JsLqPl5' => 
     array (
       'methods' => 
       array (
@@ -2280,7 +2688,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::tbG1D2aFz9YtdnSP',
+        'as' => 'generated::oQE1mqWM8JsLqPl5',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2479,7 +2887,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::SbVFRWJmxg7TIZpy' => 
+    'generated::jDlvEs0IpPbq5Crs' => 
     array (
       'methods' => 
       array (
@@ -2499,7 +2907,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::SbVFRWJmxg7TIZpy',
+        'as' => 'generated::jDlvEs0IpPbq5Crs',
       ),
       'fallback' => false,
       'defaults' => 

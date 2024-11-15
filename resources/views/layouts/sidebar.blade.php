@@ -10,6 +10,7 @@
         </a>
     </li><!-- End Dashboard Nav -->
 
+    <!-- Start Member Nav -->
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#member-nav" data-bs-toggle="collapse" href="#">
              <i class="fas fa-users"></i><span>Member</span><i class="bi bi-chevron-down ms-auto"></i>
@@ -26,7 +27,27 @@
                 </a>
             </li>
         </ul>
-    </li><!-- End Member Nav -->
+    </li>
+    <!-- End Member Nav -->
+    <!-- Start Notice Nav -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#notice-nav" data-bs-toggle="collapse" href="#">
+             <i class="fas fa-users"></i><span>Notice</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="notice-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+           <li>
+                <a href="{{ route('note.index') }}">
+                    <i class="bi bi-circle"></i><span>View Notes</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('note.create') }}">
+                    <i class="bi bi-circle"></i><span>Add Notes</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <!-- End Notice Nav -->
 
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#product-nav" data-bs-toggle="collapse" href="#">
