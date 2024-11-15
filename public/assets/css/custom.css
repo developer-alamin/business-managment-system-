@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 li.permission_name {
     list-style-type: none;
     background: #0032ff;
@@ -43,3 +46,8 @@ div.row div.col-6{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+/* for modal zoom in css */
+.modal.fade .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(.5);transform: translate(0,0)scale(.5);}
+.modal.show .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(1);transform: translate(0,0)scale(1);}
+/* for modal zoom in css */

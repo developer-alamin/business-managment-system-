@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Member;
 use Illuminate\Http\Request;
 
 class MemberController extends Controller
@@ -12,7 +13,9 @@ class MemberController extends Controller
      */
     public function index()
     {
-        return view('Member.Index');
+        $members = Member::query();
+        $members = $members->paginate(10);
+        return view('Member.Index',compact('members'));
     }
 
     /**
@@ -28,7 +31,17 @@ class MemberController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //dd($request->all());
+       Member::create([
+        'member_id' => $request->member_id,
+        'name' => $request->name,
+        'phone' => $request->phone,
+        'alt_phone' => $request->alt_phone,
+        'address' => $request->address,
+        'date' => $request->date,
+        'refer_by' => $request->ref_by
+        ]);
+       return redirect()->back()->with('success','Member Created Success');
     }
 
     /**
@@ -42,24 +55,37 @@ class MemberController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Member $member)
     {
-        //
+        return view('Member.Edit',compact('member'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Member $member)
     {
-        //
+
+        $member->member_id = $request->member_id;
+        $member->name = $request->name;
+        $member->phone = $request->phone;
+        $member->alt_phone = $request->alt_phone;
+        $member->address = $request->address;
+        $member->date = $request->date;
+        $member->refer_by = $request->ref_by;
+
+        $member->update();
+        return redirect()->back()->with('update',value: 'Member Data Updated');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Member $member)
     {
-        //
+        if ($member) {
+          $member->delete();
+          return redirect()->back()->with('success','Member Data Deleted');
+        }
     }
 }
