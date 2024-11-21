@@ -12,13 +12,17 @@
                 <form action="{{ route('member.store') }}" method="POST">
                     @csrf
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-4">
                             <label for="date">Date:</label>
                             <input type="date" name="date" id="date" class="form-control" required>
                         </div>
-                        <div class="col-6">
+                        <div class="col-4">
                             <label for="member_id">Member Id:</label>
                             <input type="text" name="member_id" id="member_id" class="form-control" placeholder="M-000001" required>
+                        </div>
+                        <div class="col-4">
+                            <label for="father">Father Name:</label>
+                            <input type="text" name="father" id="father" class="form-control" placeholder="Enter Father Name" required>
                         </div>
                         <div class="col-6">
                             <label for="name">Name:</label>

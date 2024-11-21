@@ -5,39 +5,31 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header d-flex align-items-center">
-                <h6>All Member</h6>
+                <h6>All Service Tyoes</h6>
+                <a href="{{ route('servicetype.create') }}" class="ms-auto btn btn-primary">New Service Type</a>
+
             </div>
             <div class="card-body pt-2">
                 <table class="table table-bordered table-hover table-striped">
                     <thead>
                         <tr>
                             <th>Sr</th>
-                            <th>Member Id</th>
                             <th>Name</th>
-                            <th>Father</th>
-                            <th>Phone</th>
-                            <th>Alt Phone</th>
-                            <th>Address</th>
-                            <th>Refer By</th>
+                            <th>Status</th>
                             <th>Action</th>
                         </tr>
                     </thead>
-                    @if ($members->count() > 0)
+                    @if ($serviceTypes->count() > 0)
                     <tbody>
-                        @foreach ($members as $key => $member)
+                        @foreach ($serviceTypes as $key => $serviceType)
                         <tr>
                             <td>{{ $key+1 }}</td>
-                            <td>{{ $member->member_id }}</td>
-                            <td>{{ $member->name }}</td>
-                            <td>{{ $member->father }}</td>
-                            <td>{{ $member->phone }}</td>
-                            <td>{{ $member->alt_phone }}</td>
-                            <td>{{ $member->address }}</td>
-                            <td>{{ $member->refer_by }}</td>
+                            <td>{{ $serviceType->name }}</td>
+                            <td><p class="{{ $serviceType->status }}">{{ $serviceType->status }}</p></td>
                             <td>
                                 <div class="d-flex justify-content-center">
-                                    <a href="{{ route('member.edit',$member) }}" class="btn btn-outline-success me-1"><i class="fas fa-edit"></i></a>
-                                    <button data-href="{{ route('member.destroy',$member->id) }}" class="btn btn-outline-danger confirm-delete"><i class="fas fa-trash"></i></button>
+                                    <a href="{{ route('servicetype.edit',$serviceType) }}" class="btn btn-outline-success me-1"><i class="fas fa-edit"></i></a>
+                                    <button data-href="{{ route('servicetype.destroy',$serviceType) }}" class="btn btn-outline-danger confirm-delete"><i class="fas fa-trash"></i></button>
                                 </div>
                             </td>
                         </tr>
@@ -46,12 +38,13 @@
                     @else
                     <tfoot>
                         <tr class="text-center">
-                            <td colspan="8">Members Data Not Found</td>
+                            <td colspan="4">Service Type Data Not Found</td>
                         </tr>
                     </tfoot>
                     @endif
+
                 </table>
-                {{ $members->appends(request()->input())->links("pagination::bootstrap-5") }}
+                {{ $serviceTypes->appends(request()->input())->links("pagination::bootstrap-5") }}
             </div>
         </div>
     </div>

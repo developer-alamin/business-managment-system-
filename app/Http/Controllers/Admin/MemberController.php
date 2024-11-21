@@ -35,6 +35,7 @@ class MemberController extends Controller
        Member::create([
         'member_id' => $request->member_id,
         'name' => $request->name,
+        'father' => $request->father,
         'phone' => $request->phone,
         'alt_phone' => $request->alt_phone,
         'address' => $request->address,
@@ -68,6 +69,7 @@ class MemberController extends Controller
 
         $member->member_id = $request->member_id;
         $member->name = $request->name;
+        $member->father = $request->father;
         $member->phone = $request->phone;
         $member->alt_phone = $request->alt_phone;
         $member->address = $request->address;

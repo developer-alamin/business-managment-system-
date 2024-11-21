@@ -18,7 +18,7 @@
         <ul id="member-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
            <li>
                 <a href="{{ route('member.index') }}">
-                    <i class="bi bi-circle"></i><span>View Member</span>
+                    <i class="bi bi-circle"></i><span>All Members</span>
                 </a>
             </li>
             <li>
@@ -32,12 +32,12 @@
     <!-- Start Notice Nav -->
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#notice-nav" data-bs-toggle="collapse" href="#">
-             <i class="fas fa-users"></i><span>Notice</span><i class="bi bi-chevron-down ms-auto"></i>
+             <i class="fas fa-users"></i><span>Note</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="notice-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
            <li>
                 <a href="{{ route('note.index') }}">
-                    <i class="bi bi-circle"></i><span>View Notes</span>
+                    <i class="bi bi-circle"></i><span>All Notes</span>
                 </a>
             </li>
             <li>
@@ -51,27 +51,23 @@
 
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#product-nav" data-bs-toggle="collapse" href="#">
-             <i class="fab fa-product-hunt"></i><span>Product</span><i class="bi bi-chevron-down ms-auto"></i>
+             <i class="fab fa-product-hunt"></i><span>Products</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="product-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
            <li>
-                <a href="{{ route('roles.index') }}">
+                <a href="{{ route('product.index') }}">
+                    <i class="bi bi-circle"></i><span>All Products</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('product.create') }}">
                     <i class="bi bi-circle"></i><span>Add Product</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('roles.create') }}">
-                    <i class="bi bi-circle"></i><span>All Product</span>
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('roles.create') }}">
-                    <i class="bi bi-circle"></i><span>Categories</span>
                 </a>
             </li>
         </ul>
     </li><!-- End Product Nav -->
 
+     <!-- Start Investor Nav -->
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#investor-nav" data-bs-toggle="collapse" href="#">
              <i class="fas fa-user-md"></i><span>Investor</span><i class="bi bi-chevron-down ms-auto"></i>
@@ -79,7 +75,7 @@
         <ul id="investor-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
            <li>
                 <a href="{{ route('investor.index') }}">
-                    <i class="bi bi-circle"></i><span>View Investor</span>
+                    <i class="bi bi-circle"></i><span>All Investors</span>
                 </a>
             </li>
             <li>
@@ -88,65 +84,68 @@
                 </a>
             </li>
         </ul>
-    </li><!-- End Doctors Nav -->
+    </li>
+    <!-- End Investor Nav -->
 
     <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#broker-nav" data-bs-toggle="collapse" href="#">
-             <i class="fas fa-user-secret"></i><span>Broker</span><i class="bi bi-chevron-down ms-auto"></i>
+        <a class="nav-link collapsed" data-bs-target="#invesCollect-nav" data-bs-toggle="collapse" href="#">
+             <i class="fas fa-user-secret"></i><span>Investment Collection</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-        <ul id="broker-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <ul id="invesCollect-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
            <li>
-                <a href="{{ route('roles.index') }}">
-                    <i class="bi bi-circle"></i><span>View Broker</span>
+                <a href="{{ route('collecttion.index') }}">
+                    <i class="bi bi-circle"></i><span>All Collections</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('roles.create') }}">
-                    <i class="bi bi-circle"></i><span>Add Broker</span>
+                <a href="{{ route('collecttion.create') }}">
+                    <i class="bi bi-circle"></i><span>Add Collection</span>
                 </a>
             </li>
         </ul>
     </li><!-- End Broker Nav -->
 
     <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#accounts-nav" data-bs-toggle="collapse" href="#">
-             <i class="fas fa-user"></i><span>Accounts</span><i class="bi bi-chevron-down ms-auto"></i>
+        <a class="nav-link collapsed" data-bs-target="#investment-nav" data-bs-toggle="collapse" href="#">
+             <i class="fas fa-user"></i><span>Investment</span><i class="bi bi-chevron-down ms-auto"></i>
             </a>
-        <ul id="accounts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-            <li class="nav-item">
-                <a class="nav-link collapsed" data-bs-target="#investment-nav" data-bs-toggle="collapse" href="#">
-                     <i class="fas fa-landmark"></i><span>Investment</span><i class="bi bi-chevron-down fs-16 ms-auto"></i>
-                    </a>
-                <ul id="investment-nav" class="nav-content collapse " data-bs-parent="#accounts-nav">
-                    <li>
-                        <a href="{{ route('roles.index') }}">
-                            <i class="bi bi-circle"></i><span>Add Investment</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ route('roles.index') }}">
-                            <i class="bi bi-circle"></i><span>All Investments</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ route('roles.index') }}">
-                            <i class="bi bi-circle"></i><span>Investor</span>
-                        </a>
-                    </li>
-                </ul>
-            </li><!-- End Investment Nav -->
+        <ul id="investment-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
             <li>
-                <a href="{{ route('roles.index') }}">
-                    <i class="bi bi-circle"></i><span>Others Income</span>
+                <a href="{{ route('investment.index') }}">
+                    <i class="bi bi-circle"></i><span>All Investments</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('roles.create') }}">
-                    <i class="bi bi-circle"></i><span>Others Expense</span>
+                <a href="{{ route('investment.create') }}">
+                    <i class="bi bi-circle"></i><span>Add Investment</span>
                 </a>
             </li>
         </ul>
-    </li><!-- End Accounts Nav -->
+    </li><!-- End Investment Nav -->
+    {{-- Start Doctor Nav --}}
+    <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#doctor-nav" data-bs-toggle="collapse" href="#">
+             <i class="fas fa-user"></i><span>Doctors</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+        <ul id="doctor-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+                <a href="{{ route('doctor.index') }}">
+                    <i class="bi bi-circle"></i><span>All Doctors</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('service.create') }}">
+                    <i class="bi bi-circle"></i><span>Services</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('servicetype.create') }}">
+                    <i class="bi bi-circle"></i><span>Service Category</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+   {{-- End Doctor Nav --}}
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#reports-nav" data-bs-toggle="collapse" href="#">
              <i class="fas fa-file"></i><span>Reports</span><i class="bi bi-chevron-down ms-auto"></i>
@@ -202,7 +201,7 @@
            @can('role list')
            <li>
                 <a href="{{ route('roles.index') }}">
-                    <i class="bi bi-circle"></i><span>View Roles</span>
+                    <i class="bi bi-circle"></i><span>All Roles</span>
                 </a>
             </li>
            @endcan
@@ -227,7 +226,7 @@
 
             <li>
                 <a href="{{ route('permission.index') }}">
-                    <i class="bi bi-circle"></i><span>View Permission</span>
+                    <i class="bi bi-circle"></i><span>All Permission</span>
                 </a>
             </li>
 
@@ -252,7 +251,7 @@
            {{-- @can('users list') --}}
             <li>
                 <a href="{{ route('users.index') }}">
-                    <i class="bi bi-circle"></i><span>View Users</span>
+                    <i class="bi bi-circle"></i><span>All Users</span>
                 </a>
             </li>
            {{-- @endcan

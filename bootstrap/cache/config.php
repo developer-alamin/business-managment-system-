@@ -157,8 +157,8 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\framework/cache/data',
-        'lock_path' => 'G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\framework/cache/data',
+        'path' => 'G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\framework/cache/data',
+        'lock_path' => 'G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -330,14 +330,14 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\app/private',
+        'root' => 'G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\app/private',
         'serve' => true,
         'throw' => false,
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\app/public',
+        'root' => 'G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
         'throw' => false,
@@ -357,7 +357,7 @@
     ),
     'links' => 
     array (
-      'G:\\laravel project\\Naim Vai\\Business Managment System\\public\\storage' => 'G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\app/public',
+      'G:\\Naim Vai\\Reach Up\\business-management-system\\public\\storage' => 'G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\app/public',
     ),
   ),
   'logging' => 
@@ -382,14 +382,14 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\logs/laravel.log',
+        'path' => 'G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\logs/laravel.log',
         'level' => 'debug',
         'replace_placeholders' => true,
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\logs/laravel.log',
+        'path' => 'G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
         'replace_placeholders' => true,
@@ -454,7 +454,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\logs/laravel.log',
+        'path' => 'G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -530,7 +530,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'G:\\laravel project\\Naim Vai\\Business Managment System\\resources\\views/vendor/mail',
+        0 => 'G:\\Naim Vai\\Reach Up\\business-management-system\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -665,7 +665,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\framework/sessions',
+    'files' => 'G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -791,9 +791,9 @@
   array (
     'paths' => 
     array (
-      0 => 'G:\\laravel project\\Naim Vai\\Business Managment System\\resources\\views',
+      0 => 'G:\\Naim Vai\\Reach Up\\business-management-system\\resources\\views',
     ),
-    'compiled' => 'G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\framework\\views',
+    'compiled' => 'G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\framework\\views',
   ),
   'tinker' => 
   array (

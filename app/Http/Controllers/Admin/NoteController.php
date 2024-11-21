@@ -43,7 +43,7 @@ class NoteController extends Controller
      */
     public function show(Note $note)
     {
-        return view("Notes.Edit",compact('note'));
+        return view(view: "Notes.Edit",compact('note'));
     }
 
     /**

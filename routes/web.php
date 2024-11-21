@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Admin\DoctorController;
+use App\Http\Controllers\Admin\InvestmentCollectionContainer;
+use App\Http\Controllers\Admin\InvestmentController;
 use App\Http\Controllers\Admin\InvestorController;
 use App\Http\Controllers\Admin\MemberController;
 use App\Http\Controllers\Admin\NoteController;
@@ -8,7 +11,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\PermissionController;
-
+use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\ServiceController;
+use App\Http\Controllers\Admin\ServiceTypeController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -36,6 +41,40 @@ Route::group(['middleware' => ['auth']], function() {
         //Investor Route Start Form Here
         Route::resource('investor',InvestorController::class);
          //Investor Route End Form Here
+
+        //Investor Collection Route Start Form Here
+        Route::prefix('investors')->group(function(){
+            Route::resource('collecttion',InvestmentCollectionContainer::class);
+        });
+        // Investor Collection Route End Form Here
+        // Product Route Start Form Here
+        Route::resource('product',ProductController::class);
+        // Product Route End Form Here
+        // Invesmnent Route Start Form Here
+        Route::controller(InvestmentController::class)
+        ->prefix('investments')
+        ->group(function () {
+            Route::get('productSelect', 'productSelect')->name('investmentsproductSelect');
+            Route::get('memberselect', 'memberselect')->name('investmentsmemberselect');
+
+        });
+        Route::resource('investment',InvestmentController::class);
+        // Invesmnent Route End Form Here
+        // Doctor Route Start Form Here
+      
+        Route::resource('doctor',DoctorController::class);
+        // Doctor Route End Form Here
+        // Service Route Start Form Here
+        Route::controller(ServiceController::class)
+        ->prefix('services')
+        ->group(function () {
+            Route::get('memberbyproduct', 'memberbyproduct')->name('servicesmemberbyproduct');
+        });
+        Route::resource('service',ServiceController::class);
+        // Service Route End Form Here
+        // Service Type Route Start Form Here
+        Route::resource('servicetype',ServiceTypeController::class);
+        // Service Type Route End Form Here
     });
 });
 

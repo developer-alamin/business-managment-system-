@@ -13,13 +13,13 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
-
             $table->string('product_id');
             $table->char('product_type');
-            $table->char('parent_id');
-            $table->string('note');
+            $table->enum('gender',['male','female']);
+            $table->char('parent_id')->nullable();
+            $table->string('note')->nullable();
             $table->enum('status',['healthly','dead','sick']);
-            $table->date('date');
+            $table->char('date')->nullable();
             $table->timestamp('created_at')
             ->useCurrent();
             $table->timestamp('updated_at')

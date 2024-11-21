@@ -13,7 +13,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::xKuIrLhApHyI9924',
+            '_route' => 'generated::nJT0wCUxhyQaJEhg',
           ),
           1 => NULL,
           2 => 
@@ -33,7 +33,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::0Ndg8EraqPVGIM4q',
+            '_route' => 'generated::WawtV4p590PckrEA',
           ),
           1 => NULL,
           2 => 
@@ -423,6 +423,402 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/dashboard/investors/collecttion' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'collecttion.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'collecttion.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/investors/collecttion/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'collecttion.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/product' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'product.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'product.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/product/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'product.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/investments/productSelect' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investmentsproductSelect',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/investments/memberselect' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investmentsmemberselect',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/investment' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investment.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investment.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/investment/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investment.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/doctor' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctor.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctor.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/doctor/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctor.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/services/memberbyproduct' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'servicesmemberbyproduct',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/service' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/service/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/servicetype' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'servicetype.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'servicetype.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/servicetype/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'servicetype.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/login' => 
       array (
         0 => 
@@ -446,7 +842,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::jASV6OGqLGmxVrzt',
+            '_route' => 'generated::NJ5WvhL0dBzZyThP',
           ),
           1 => NULL,
           2 => 
@@ -501,7 +897,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::bfTkSa5JrrEZKvk5',
+            '_route' => 'generated::psJPfzs2EAYvK5O2',
           ),
           1 => NULL,
           2 => 
@@ -592,7 +988,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::mCNrFFTPhp63ltUK',
+            '_route' => 'generated::XMUfFUgTeG9p2Gvd',
           ),
           1 => NULL,
           2 => 
@@ -608,7 +1004,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/dashboard/(?|roles/([^/]++)(?|(*:38)|/edit(*:50)|(*:57))|users/([^/]++)(?|(*:82)|/edit(*:94)|(*:101))|permission/([^/]++)(?|(*:132)|/edit(*:145)|(*:153))|member/([^/]++)(?|(*:180)|/edit(*:193)|(*:201))|note/([^/]++)(?|(*:226)|/edit(*:239)|(*:247))|investor/([^/]++)(?|(*:276)|/edit(*:289)|(*:297)))|/password/reset/([^/]++)(*:331)|/storage/(.*)(*:352))/?$}sDu',
+      0 => '{^(?|/dashboard/(?|roles/([^/]++)(?|(*:38)|/edit(*:50)|(*:57))|users/([^/]++)(?|(*:82)|/edit(*:94)|(*:101))|p(?|ermission/([^/]++)(?|(*:135)|/edit(*:148)|(*:156))|roduct/([^/]++)(?|(*:183)|/edit(*:196)|(*:204)))|member/([^/]++)(?|(*:232)|/edit(*:245)|(*:253))|note/([^/]++)(?|(*:278)|/edit(*:291)|(*:299))|invest(?|or(?|/([^/]++)(?|(*:334)|/edit(*:347)|(*:355))|s/collecttion/([^/]++)(?|(*:389)|/edit(*:402)|(*:410)))|ment/([^/]++)(?|(*:436)|/edit(*:449)|(*:457)))|doctor/([^/]++)(?|(*:485)|/edit(*:498)|(*:506))|service(?|/([^/]++)(?|(*:537)|/edit(*:550)|(*:558))|type/([^/]++)(?|(*:583)|/edit(*:596)|(*:604))))|/password/reset/([^/]++)(*:639)|/storage/(.*)(*:660))/?$}sDu',
     ),
     3 => 
     array (
@@ -788,7 +1184,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      132 => 
+      135 => 
       array (
         0 => 
         array (
@@ -811,7 +1207,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      145 => 
+      148 => 
       array (
         0 => 
         array (
@@ -834,7 +1230,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      153 => 
+      156 => 
       array (
         0 => 
         array (
@@ -876,7 +1272,95 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      180 => 
+      183 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'product.show',
+          ),
+          1 => 
+          array (
+            0 => 'product',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      196 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'product.edit',
+          ),
+          1 => 
+          array (
+            0 => 'product',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      204 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'product.update',
+          ),
+          1 => 
+          array (
+            0 => 'product',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'product.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'product',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      232 => 
       array (
         0 => 
         array (
@@ -899,7 +1383,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      193 => 
+      245 => 
       array (
         0 => 
         array (
@@ -922,7 +1406,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      201 => 
+      253 => 
       array (
         0 => 
         array (
@@ -964,7 +1448,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      226 => 
+      278 => 
       array (
         0 => 
         array (
@@ -987,7 +1471,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      239 => 
+      291 => 
       array (
         0 => 
         array (
@@ -1010,7 +1494,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      247 => 
+      299 => 
       array (
         0 => 
         array (
@@ -1052,7 +1536,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      276 => 
+      334 => 
       array (
         0 => 
         array (
@@ -1075,7 +1559,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      289 => 
+      347 => 
       array (
         0 => 
         array (
@@ -1098,7 +1582,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      297 => 
+      355 => 
       array (
         0 => 
         array (
@@ -1140,7 +1624,447 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      331 => 
+      389 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'collecttion.show',
+          ),
+          1 => 
+          array (
+            0 => 'collecttion',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      402 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'collecttion.edit',
+          ),
+          1 => 
+          array (
+            0 => 'collecttion',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      410 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'collecttion.update',
+          ),
+          1 => 
+          array (
+            0 => 'collecttion',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'collecttion.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'collecttion',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      436 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investment.show',
+          ),
+          1 => 
+          array (
+            0 => 'investment',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      449 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investment.edit',
+          ),
+          1 => 
+          array (
+            0 => 'investment',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      457 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investment.update',
+          ),
+          1 => 
+          array (
+            0 => 'investment',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'investment.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'investment',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      485 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctor.show',
+          ),
+          1 => 
+          array (
+            0 => 'doctor',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      498 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctor.edit',
+          ),
+          1 => 
+          array (
+            0 => 'doctor',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      506 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctor.update',
+          ),
+          1 => 
+          array (
+            0 => 'doctor',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'doctor.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'doctor',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      537 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.show',
+          ),
+          1 => 
+          array (
+            0 => 'service',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      550 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.edit',
+          ),
+          1 => 
+          array (
+            0 => 'service',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      558 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.update',
+          ),
+          1 => 
+          array (
+            0 => 'service',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'service',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      583 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'servicetype.show',
+          ),
+          1 => 
+          array (
+            0 => 'servicetype',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      596 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'servicetype.edit',
+          ),
+          1 => 
+          array (
+            0 => 'servicetype',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      604 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'servicetype.update',
+          ),
+          1 => 
+          array (
+            0 => 'servicetype',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'servicetype.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'servicetype',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      639 => 
       array (
         0 => 
         array (
@@ -1163,7 +2087,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      352 => 
+      660 => 
       array (
         0 => 
         array (
@@ -1201,7 +2125,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::xKuIrLhApHyI9924' => 
+    'generated::nJT0wCUxhyQaJEhg' => 
     array (
       'methods' => 
       array (
@@ -1211,12 +2135,12 @@ app('router')->setCompiledRoutes(
       'uri' => 'up',
       'action' => 
       array (
-        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:384:"function () {
+        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:378:"function () {
                     \\Illuminate\\Support\\Facades\\Event::dispatch(new \\Illuminate\\Foundation\\Events\\DiagnosingHealth);
 
-                    return \\Illuminate\\Support\\Facades\\View::file(\'G:\\\\laravel project\\\\Naim Vai\\\\Business Managment System\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\');
-                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000004e10000000000000000";}}',
-        'as' => 'generated::xKuIrLhApHyI9924',
+                    return \\Illuminate\\Support\\Facades\\View::file(\'G:\\\\Naim Vai\\\\Reach Up\\\\business-management-system\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\');
+                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000004e20000000000000000";}}',
+        'as' => 'generated::nJT0wCUxhyQaJEhg',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1232,7 +2156,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::0Ndg8EraqPVGIM4q' => 
+    'generated::WawtV4p590PckrEA' => 
     array (
       'methods' => 
       array (
@@ -1248,13 +2172,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:44:"function () {
     return \\view(\'welcome\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004e50000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004e60000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::0Ndg8EraqPVGIM4q',
+        'as' => 'generated::WawtV4p590PckrEA',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2930,6 +3854,1704 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'collecttion.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investors/collecttion',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'collecttion.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@index',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/investors',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'collecttion.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investors/collecttion/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'collecttion.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@create',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/investors',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'collecttion.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/investors/collecttion',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'collecttion.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@store',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/investors',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'collecttion.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investors/collecttion/{collecttion}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'collecttion.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@show',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/investors',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'collecttion.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investors/collecttion/{collecttion}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'collecttion.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@edit',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/investors',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'collecttion.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/investors/collecttion/{collecttion}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'collecttion.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@update',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/investors',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'collecttion.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/investors/collecttion/{collecttion}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'collecttion.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentCollectionContainer@destroy',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/investors',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'product.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/product',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'product.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ProductController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ProductController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'product.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/product/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'product.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ProductController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ProductController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'product.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/product',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'product.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ProductController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ProductController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'product.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/product/{product}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'product.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ProductController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ProductController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'product.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/product/{product}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'product.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ProductController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ProductController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'product.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/product/{product}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'product.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ProductController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ProductController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'product.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/product/{product}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'product.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ProductController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ProductController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investmentsproductSelect' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investments/productSelect',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentController@productSelect',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentController@productSelect',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/investments',
+        'where' => 
+        array (
+        ),
+        'as' => 'investmentsproductSelect',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investmentsmemberselect' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investments/memberselect',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentController@memberselect',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentController@memberselect',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/investments',
+        'where' => 
+        array (
+        ),
+        'as' => 'investmentsmemberselect',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investment.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investment',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investment.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investment.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investment/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investment.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investment.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/investment',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investment.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investment.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investment/{investment}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investment.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investment.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/investment/{investment}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investment.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investment.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/investment/{investment}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investment.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'investment.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/investment/{investment}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'investment.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\InvestmentController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\InvestmentController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'doctor.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/doctor',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'doctor.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\DoctorController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\DoctorController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'doctor.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/doctor/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'doctor.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\DoctorController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\DoctorController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'doctor.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/doctor',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'doctor.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\DoctorController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\DoctorController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'doctor.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/doctor/{doctor}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'doctor.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\DoctorController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\DoctorController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'doctor.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/doctor/{doctor}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'doctor.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\DoctorController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\DoctorController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'doctor.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/doctor/{doctor}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'doctor.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\DoctorController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\DoctorController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'doctor.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/doctor/{doctor}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'doctor.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\DoctorController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\DoctorController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'servicesmemberbyproduct' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/services/memberbyproduct',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceController@memberbyproduct',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceController@memberbyproduct',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/services',
+        'where' => 
+        array (
+        ),
+        'as' => 'servicesmemberbyproduct',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/service',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'service.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/service/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'service.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/service',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'service.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/service/{service}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'service.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/service/{service}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'service.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/service/{service}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'service.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/service/{service}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'service.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'servicetype.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/servicetype',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'servicetype.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'servicetype.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/servicetype/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'servicetype.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'servicetype.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/servicetype',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'servicetype.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'servicetype.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/servicetype/{servicetype}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'servicetype.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'servicetype.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/servicetype/{servicetype}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'servicetype.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'servicetype.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/servicetype/{servicetype}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'servicetype.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'servicetype.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/servicetype/{servicetype}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'servicetype.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ServiceTypeController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'login' => 
     array (
       'methods' => 
@@ -2967,7 +5589,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::jASV6OGqLGmxVrzt' => 
+    'generated::NJ5WvhL0dBzZyThP' => 
     array (
       'methods' => 
       array (
@@ -2987,7 +5609,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::jASV6OGqLGmxVrzt',
+        'as' => 'generated::NJ5WvhL0dBzZyThP',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3076,7 +5698,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::bfTkSa5JrrEZKvk5' => 
+    'generated::psJPfzs2EAYvK5O2' => 
     array (
       'methods' => 
       array (
@@ -3096,7 +5718,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::bfTkSa5JrrEZKvk5',
+        'as' => 'generated::psJPfzs2EAYvK5O2',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3295,7 +5917,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::mCNrFFTPhp63ltUK' => 
+    'generated::XMUfFUgTeG9p2Gvd' => 
     array (
       'methods' => 
       array (
@@ -3315,7 +5937,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::mCNrFFTPhp63ltUK',
+        'as' => 'generated::XMUfFUgTeG9p2Gvd',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3341,13 +5963,13 @@ app('router')->setCompiledRoutes(
       'uri' => 'storage/{path}',
       'action' => 
       array (
-        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:3:{s:4:"disk";s:5:"local";s:6:"config";a:4:{s:6:"driver";s:5:"local";s:4:"root";s:73:"G:\\laravel project\\Naim Vai\\Business Managment System\\storage\\app/private";s:5:"serve";b:1;s:5:"throw";b:0;}s:12:"isProduction";b:0;}s:8:"function";s:323:"function (\\Illuminate\\Http\\Request $request, string $path) use ($disk, $config, $isProduction) {
+        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:3:{s:4:"disk";s:5:"local";s:6:"config";a:4:{s:6:"driver";s:5:"local";s:4:"root";s:67:"G:\\Naim Vai\\Reach Up\\business-management-system\\storage\\app/private";s:5:"serve";b:1;s:5:"throw";b:0;}s:12:"isProduction";b:0;}s:8:"function";s:323:"function (\\Illuminate\\Http\\Request $request, string $path) use ($disk, $config, $isProduction) {
                     return (new \\Illuminate\\Filesystem\\ServeFile(
                         $disk,
                         $config,
                         $isProduction
                     ))($request, $path);
-                }";s:5:"scope";s:47:"Illuminate\\Filesystem\\FilesystemServiceProvider";s:4:"this";N;s:4:"self";s:32:"00000000000004e70000000000000000";}}',
+                }";s:5:"scope";s:47:"Illuminate\\Filesystem\\FilesystemServiceProvider";s:4:"this";N;s:4:"self";s:32:"00000000000004e80000000000000000";}}',
         'as' => 'storage.local',
       ),
       'fallback' => false,

@@ -13,13 +13,17 @@
                     @csrf
                     @method('put')
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-4">
                             <label for="date">Date:</label>
                             <input type="date" name="date" id="date" class="form-control" value="{{ $member->date }}">
                         </div>
-                        <div class="col-6">
+                        <div class="col-4">
                             <label for="member_id">Member Id:</label>
                             <input type="text" name="member_id" id="member_id" class="form-control" value="{{ $member->member_id }}">
+                        </div>
+                        <div class="col-4">
+                            <label for="father">Father Name:</label>
+                            <input type="text" name="father" id="father" class="form-control"  value="{{ $member->father }}" required>
                         </div>
                         <div class="col-6">
                             <label for="name">Name:</label>

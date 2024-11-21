@@ -5,7 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Investment_Collection extends Model
+class ServiceType extends Model
 {
     use HasFactory;
+    protected $fillable = ['name','status'];
 }

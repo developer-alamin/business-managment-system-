@@ -61,7 +61,7 @@ p.active {
     border-radius: 3px;
     color: white;
 }
-p.inactive {
+p.inactive,.in-active {
     background: red;
     text-align: center;
     border-radius: 3px;
