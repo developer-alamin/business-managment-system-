@@ -1,11 +1,13 @@
 <?php
 
 use App\Http\Controllers\Admin\DoctorController;
+use App\Http\Controllers\Admin\ExpenseController;
 use App\Http\Controllers\Admin\InvestmentCollectionContainer;
 use App\Http\Controllers\Admin\InvestmentController;
 use App\Http\Controllers\Admin\InvestorController;
 use App\Http\Controllers\Admin\MemberController;
 use App\Http\Controllers\Admin\NoteController;
+use App\Http\Controllers\Admin\PaymentMethodController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\RoleController;
@@ -75,6 +77,15 @@ Route::group(['middleware' => ['auth']], function() {
         // Service Type Route Start Form Here
         Route::resource('servicetype',ServiceTypeController::class);
         // Service Type Route End Form Here
+
+        //Payment Method Route Start Form Here
+        Route::prefix('payment')->group(function(){
+            Route::resource('method',PaymentMethodController::class);
+        });
+        //Payment Method Route End Form Here
+        //Expense Route Start Form Here
+        Route::resource('expense',ExpenseController::class);
+        //Expense Route End Form Here
     });
 });
 

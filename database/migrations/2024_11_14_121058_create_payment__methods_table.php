@@ -18,7 +18,7 @@ return new class extends Migration
             $table->char('account_number')->nullable();
             $table->char('account_branch')->nullable();
             $table->char('opening_account')->nullable();
-            $table->char('note');
+            $table->char('note')->nullable();
             $table->enum('status',['active','inactive']);
             $table->date('date');
             $table->timestamp('created_at')

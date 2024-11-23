@@ -122,6 +122,7 @@
             </li>
         </ul>
     </li><!-- End Investment Nav -->
+
     {{-- Start Doctor Nav --}}
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#doctor-nav" data-bs-toggle="collapse" href="#">
@@ -145,7 +146,48 @@
             </li>
         </ul>
     </li>
-   {{-- End Doctor Nav --}}
+    {{-- End Doctor Nav --}}
+    
+    {{-- Start Expense Nav --}}
+    <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#expense-nav" data-bs-toggle="collapse" href="#">
+             <i class="fas fa-user"></i><span>Expenses</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+        <ul id="expense-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+                <a href="{{ route('expense.index') }}">
+                    <i class="bi bi-circle"></i><span>All Expenses</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('expense.create') }}">
+                    <i class="bi bi-circle"></i><span>Add Expense</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    {{-- End Expense Nav --}}
+
+    {{-- Start Payment Methods Nav --}}
+    <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#payment_method-nav" data-bs-toggle="collapse" href="#">
+             <i class="fas fa-user"></i><span>Payments Method</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+        <ul id="payment_method-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+                <a href="{{ route('method.index') }}">
+                    <i class="bi bi-circle"></i><span>All Method</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('method.create') }}">
+                    <i class="bi bi-circle"></i><span>Add Method</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    {{-- End Payment Methods Nav --}}
+
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#reports-nav" data-bs-toggle="collapse" href="#">
              <i class="fas fa-file"></i><span>Reports</span><i class="bi bi-chevron-down ms-auto"></i>

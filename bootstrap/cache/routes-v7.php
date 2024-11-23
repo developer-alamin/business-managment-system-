@@ -13,7 +13,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::nJT0wCUxhyQaJEhg',
+            '_route' => 'generated::x0nKdlenruU48Kcr',
           ),
           1 => NULL,
           2 => 
@@ -33,7 +33,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::WawtV4p590PckrEA',
+            '_route' => 'generated::RfX6OkYXfCkpI2fu',
           ),
           1 => NULL,
           2 => 
@@ -819,6 +819,118 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/dashboard/payment/method' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'method.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'method.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/payment/method/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'method.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/expense' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'expense.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'expense.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/expense/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'expense.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/login' => 
       array (
         0 => 
@@ -842,7 +954,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::NJ5WvhL0dBzZyThP',
+            '_route' => 'generated::CjOAYNPPPFhHofPL',
           ),
           1 => NULL,
           2 => 
@@ -897,7 +1009,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::psJPfzs2EAYvK5O2',
+            '_route' => 'generated::m0cwlJu4XPYHDrTp',
           ),
           1 => NULL,
           2 => 
@@ -988,7 +1100,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::XMUfFUgTeG9p2Gvd',
+            '_route' => 'generated::5vBbmfDFcfsZ08Si',
           ),
           1 => NULL,
           2 => 
@@ -1004,7 +1116,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/dashboard/(?|roles/([^/]++)(?|(*:38)|/edit(*:50)|(*:57))|users/([^/]++)(?|(*:82)|/edit(*:94)|(*:101))|p(?|ermission/([^/]++)(?|(*:135)|/edit(*:148)|(*:156))|roduct/([^/]++)(?|(*:183)|/edit(*:196)|(*:204)))|member/([^/]++)(?|(*:232)|/edit(*:245)|(*:253))|note/([^/]++)(?|(*:278)|/edit(*:291)|(*:299))|invest(?|or(?|/([^/]++)(?|(*:334)|/edit(*:347)|(*:355))|s/collecttion/([^/]++)(?|(*:389)|/edit(*:402)|(*:410)))|ment/([^/]++)(?|(*:436)|/edit(*:449)|(*:457)))|doctor/([^/]++)(?|(*:485)|/edit(*:498)|(*:506))|service(?|/([^/]++)(?|(*:537)|/edit(*:550)|(*:558))|type/([^/]++)(?|(*:583)|/edit(*:596)|(*:604))))|/password/reset/([^/]++)(*:639)|/storage/(.*)(*:660))/?$}sDu',
+      0 => '{^(?|/dashboard/(?|roles/([^/]++)(?|(*:38)|/edit(*:50)|(*:57))|users/([^/]++)(?|(*:82)|/edit(*:94)|(*:101))|p(?|ermission/([^/]++)(?|(*:135)|/edit(*:148)|(*:156))|roduct/([^/]++)(?|(*:183)|/edit(*:196)|(*:204))|ayment/method/([^/]++)(?|(*:238)|/edit(*:251)|(*:259)))|member/([^/]++)(?|(*:287)|/edit(*:300)|(*:308))|note/([^/]++)(?|(*:333)|/edit(*:346)|(*:354))|invest(?|or(?|/([^/]++)(?|(*:389)|/edit(*:402)|(*:410))|s/collecttion/([^/]++)(?|(*:444)|/edit(*:457)|(*:465)))|ment/([^/]++)(?|(*:491)|/edit(*:504)|(*:512)))|doctor/([^/]++)(?|(*:540)|/edit(*:553)|(*:561))|service(?|/([^/]++)(?|(*:592)|/edit(*:605)|(*:613))|type/([^/]++)(?|(*:638)|/edit(*:651)|(*:659)))|expense/([^/]++)(?|(*:688)|/edit(*:701)|(*:709)))|/password/reset/([^/]++)(*:743)|/storage/(.*)(*:764))/?$}sDu',
     ),
     3 => 
     array (
@@ -1360,7 +1472,95 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      232 => 
+      238 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'method.show',
+          ),
+          1 => 
+          array (
+            0 => 'method',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      251 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'method.edit',
+          ),
+          1 => 
+          array (
+            0 => 'method',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      259 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'method.update',
+          ),
+          1 => 
+          array (
+            0 => 'method',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'method.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'method',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      287 => 
       array (
         0 => 
         array (
@@ -1383,7 +1583,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      245 => 
+      300 => 
       array (
         0 => 
         array (
@@ -1406,7 +1606,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      253 => 
+      308 => 
       array (
         0 => 
         array (
@@ -1448,7 +1648,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      278 => 
+      333 => 
       array (
         0 => 
         array (
@@ -1471,7 +1671,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      291 => 
+      346 => 
       array (
         0 => 
         array (
@@ -1494,7 +1694,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      299 => 
+      354 => 
       array (
         0 => 
         array (
@@ -1536,7 +1736,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      334 => 
+      389 => 
       array (
         0 => 
         array (
@@ -1559,7 +1759,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      347 => 
+      402 => 
       array (
         0 => 
         array (
@@ -1582,7 +1782,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      355 => 
+      410 => 
       array (
         0 => 
         array (
@@ -1624,7 +1824,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      389 => 
+      444 => 
       array (
         0 => 
         array (
@@ -1647,7 +1847,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      402 => 
+      457 => 
       array (
         0 => 
         array (
@@ -1670,7 +1870,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      410 => 
+      465 => 
       array (
         0 => 
         array (
@@ -1712,7 +1912,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      436 => 
+      491 => 
       array (
         0 => 
         array (
@@ -1735,7 +1935,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      449 => 
+      504 => 
       array (
         0 => 
         array (
@@ -1758,7 +1958,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      457 => 
+      512 => 
       array (
         0 => 
         array (
@@ -1800,7 +2000,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      485 => 
+      540 => 
       array (
         0 => 
         array (
@@ -1823,7 +2023,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      498 => 
+      553 => 
       array (
         0 => 
         array (
@@ -1846,7 +2046,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      506 => 
+      561 => 
       array (
         0 => 
         array (
@@ -1888,7 +2088,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      537 => 
+      592 => 
       array (
         0 => 
         array (
@@ -1911,7 +2111,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      550 => 
+      605 => 
       array (
         0 => 
         array (
@@ -1934,7 +2134,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      558 => 
+      613 => 
       array (
         0 => 
         array (
@@ -1976,7 +2176,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      583 => 
+      638 => 
       array (
         0 => 
         array (
@@ -1999,7 +2199,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      596 => 
+      651 => 
       array (
         0 => 
         array (
@@ -2022,7 +2222,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      604 => 
+      659 => 
       array (
         0 => 
         array (
@@ -2064,7 +2264,95 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      639 => 
+      688 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'expense.show',
+          ),
+          1 => 
+          array (
+            0 => 'expense',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      701 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'expense.edit',
+          ),
+          1 => 
+          array (
+            0 => 'expense',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      709 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'expense.update',
+          ),
+          1 => 
+          array (
+            0 => 'expense',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'expense.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'expense',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      743 => 
       array (
         0 => 
         array (
@@ -2087,7 +2375,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      660 => 
+      764 => 
       array (
         0 => 
         array (
@@ -2125,7 +2413,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::nJT0wCUxhyQaJEhg' => 
+    'generated::x0nKdlenruU48Kcr' => 
     array (
       'methods' => 
       array (
@@ -2140,7 +2428,7 @@ app('router')->setCompiledRoutes(
 
                     return \\Illuminate\\Support\\Facades\\View::file(\'G:\\\\Naim Vai\\\\Reach Up\\\\business-management-system\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\');
                 }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000004e20000000000000000";}}',
-        'as' => 'generated::nJT0wCUxhyQaJEhg',
+        'as' => 'generated::x0nKdlenruU48Kcr',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2156,7 +2444,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::WawtV4p590PckrEA' => 
+    'generated::RfX6OkYXfCkpI2fu' => 
     array (
       'methods' => 
       array (
@@ -2178,7 +2466,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::WawtV4p590PckrEA',
+        'as' => 'generated::RfX6OkYXfCkpI2fu',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5552,6 +5840,534 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'method.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/payment/method',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'method.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@index',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/payment',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'method.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/payment/method/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'method.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@create',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/payment',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'method.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/payment/method',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'method.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@store',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/payment',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'method.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/payment/method/{method}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'method.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@show',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/payment',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'method.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/payment/method/{method}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'method.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@edit',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/payment',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'method.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/payment/method/{method}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'method.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@update',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/payment',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'method.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/payment/method/{method}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'method.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\PaymentMethodController@destroy',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/payment',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'expense.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/expense',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'expense.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ExpenseController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ExpenseController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'expense.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/expense/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'expense.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ExpenseController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ExpenseController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'expense.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/expense',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'expense.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ExpenseController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ExpenseController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'expense.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/expense/{expense}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'expense.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ExpenseController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ExpenseController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'expense.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/expense/{expense}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'expense.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ExpenseController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ExpenseController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'expense.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/expense/{expense}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'expense.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ExpenseController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ExpenseController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'expense.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/expense/{expense}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'expense.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\ExpenseController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\ExpenseController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'login' => 
     array (
       'methods' => 
@@ -5589,7 +6405,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::NJ5WvhL0dBzZyThP' => 
+    'generated::CjOAYNPPPFhHofPL' => 
     array (
       'methods' => 
       array (
@@ -5609,7 +6425,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::NJ5WvhL0dBzZyThP',
+        'as' => 'generated::CjOAYNPPPFhHofPL',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5698,7 +6514,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::psJPfzs2EAYvK5O2' => 
+    'generated::m0cwlJu4XPYHDrTp' => 
     array (
       'methods' => 
       array (
@@ -5718,7 +6534,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::psJPfzs2EAYvK5O2',
+        'as' => 'generated::m0cwlJu4XPYHDrTp',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5917,7 +6733,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::XMUfFUgTeG9p2Gvd' => 
+    'generated::5vBbmfDFcfsZ08Si' => 
     array (
       'methods' => 
       array (
@@ -5937,7 +6753,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::XMUfFUgTeG9p2Gvd',
+        'as' => 'generated::5vBbmfDFcfsZ08Si',
       ),
       'fallback' => false,
       'defaults' => 
