@@ -1,10 +1,13 @@
 <?php
 
+use App\Http\Controllers\Admin\AttributeController;
 use App\Http\Controllers\Admin\DoctorController;
 use App\Http\Controllers\Admin\ExpenseController;
+use App\Http\Controllers\Admin\IncomeController;
 use App\Http\Controllers\Admin\InvestmentCollectionContainer;
 use App\Http\Controllers\Admin\InvestmentController;
 use App\Http\Controllers\Admin\InvestorController;
+use App\Http\Controllers\Admin\LoanController;
 use App\Http\Controllers\Admin\MemberController;
 use App\Http\Controllers\Admin\NoteController;
 use App\Http\Controllers\Admin\PaymentMethodController;
@@ -86,6 +89,25 @@ Route::group(['middleware' => ['auth']], function() {
         //Expense Route Start Form Here
         Route::resource('expense',ExpenseController::class);
         //Expense Route End Form Here
+
+        //Income Route Start Form Here
+        Route::resource('income',IncomeController::class);
+        //Income Route End Form Here
+
+        //Attribute Route Start Form Here
+        Route::prefix('attributes')->group(function(){
+            Route::get('/{slug}',[AttributeController::class,'attributesgetvalues'])->name('attributes.values');
+            Route::post('{slug}/value/store',[AttributeController::class,'attributesvaluestore'])->name('attributes.value.store');
+            Route::get('{slug}/value/{value}/edit',[AttributeController::class,'attributesvalueedit'])->name('attributes.value.edit');
+            Route::put('{slug}/value/{value}',[AttributeController::class,'attributesvalueupdate'])->name('attributes.value.update');
+            Route::delete('{slug}/value/{value}',[AttributeController::class,'attributesvaluedelete'])->name('attributes.value.delete');
+        });
+        Route::resource('attribute',AttributeController::class);
+        //Attribute Route End Form Here
+
+        //Loan Route Start Form Here
+        Route::resource('loan',LoanController::class);
+        //Loan Route End Form Here
     });
 });
 

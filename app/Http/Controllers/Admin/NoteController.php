@@ -15,7 +15,8 @@ class NoteController extends Controller
     {
         $notes = Note::query();
         $notes = $notes->paginate(10);
-        return view('Notes.Index',compact('notes'));
+        return view("Notes.Index",compact('notes'));
+        //return view('Notes.Index',compact('notes'));
     }
 
     /**
@@ -43,7 +44,7 @@ class NoteController extends Controller
      */
     public function show(Note $note)
     {
-        return view(view: "Notes.Edit",compact('note'));
+        //return view(view: "Notes.Edit",compact('note'));
     }
 
     /**

@@ -28,4 +28,7 @@ class Products extends Model
         return $this->hasManyThrough(Member::class, Investment::class);
     }
 
+    public function parent(){
+        return $this->hasOne(Products::class,'parent_id','id');
+    }
 }

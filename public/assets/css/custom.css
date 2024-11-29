@@ -22,7 +22,9 @@ ul.ul_permission_wrap {
     cursor: pointer;
 }
 label{
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Poppins, Helvetica, sans-serif;
 }
 /* error css start form here*/
 span.error,span.error_msg {

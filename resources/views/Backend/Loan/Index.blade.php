@@ -13,32 +13,28 @@
                     <thead>
                         <tr>
                             <th>Sr</th>
-                            <th>Expence Type</th>
-                            <th>Purchase Type</th>
-                            <th>Product</th>
-                            <th>Payment Method</th>
-                            <th>Payment Info</th>
+                            <th>Investor</th>
+                            <th>Payment</th>
+                            <th>Type</th>
                             <th>Amount</th>
                             <th>Date</th>
                             <th>Action</th>
                         </tr>
                     </thead>
-                    @if ($expenses->count() > 0)
+                    @if ($loans->count() > 0)
                     <tbody>
-                        @foreach ($expenses as $key => $expense)
+                        @foreach ($loans as $key => $loan)
                         <tr>
                             <td>{{ $key+1 }}</td>
-                            <td>{{ $expense->expense_type }}</td>
-                            <td>{{ $expense->purchase_type }}</td>
-                            <td>{{ $expense->product->product_id }}</td>
-                            <td>{{ $expense->method->account_type }}</td>
-                            <td>{{ $expense->payment_info }}</td>
-                            <td>{{ $expense->amount }}</td>
-                            <td>{{ $expense->date }}</td>
+                            <td>{{ $loan->investor->name }}</td>
+                            <td>{{ $loan->method->account_type }}</td>
+                            <td>{{ $loan->type }}</td>
+                            <td>{{ $loan->amount }}</td>
+                            <td>{{ $loan->date }}</td>
                             <td>
                                 <div class="d-flex justify-content-center">
-                                    <a href="{{ route('expense.edit',$expense) }}" class="btn btn-outline-success me-1"><i class="fas fa-edit"></i></a>
-                                    <button data-href="{{ route('expense.destroy',$expense) }}" class="btn btn-outline-danger confirm-delete"><i class="fas fa-trash"></i></button>
+                                    <a href="{{ route('loan.edit',$loan) }}" class="btn btn-outline-success me-1"><i class="fas fa-edit"></i></a>
+                                    <button data-href="{{ route('loan.destroy',$loan) }}" class="btn btn-outline-danger confirm-delete"><i class="fas fa-trash"></i></button>
                                 </div>
                             </td>
                         </tr>
@@ -47,13 +43,13 @@
                     @else
                     <tfoot>
                         <tr class="text-center">
-                            <td colspan="7">Expenses Data Not Found</td>
+                            <td colspan="7">Service Data Not Found</td>
                         </tr>
                     </tfoot>
                     @endif
 
                 </table>
-                {{ $expenses->appends(request()->input())->links("pagination::bootstrap-5") }}
+                {{ $loans->appends(request()->input())->links("pagination::bootstrap-5") }}
             </div>
         </div>
     </div>

@@ -9,7 +9,25 @@
          <span>Dashboard</span>
         </a>
     </li><!-- End Dashboard Nav -->
-
+     <!-- Start Member Nav -->
+     <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#attribute-nav" data-bs-toggle="collapse" href="#">
+            <i class="fas fa-users"></i><span>Attribute</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="attribute-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+           <li>
+                <a href="{{ route('attribute.index') }}">
+                    <i class="bi bi-circle"></i><span>All Attributes</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('attribute.create') }}">
+                    <i class="bi bi-circle"></i><span>Add Attribute</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <!-- End Member Nav -->
     <!-- Start Member Nav -->
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#member-nav" data-bs-toggle="collapse" href="#">
@@ -168,6 +186,47 @@
     </li>
     {{-- End Expense Nav --}}
 
+    {{-- Start Income Nav --}}
+    <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#income-nav" data-bs-toggle="collapse" href="#">
+             <i class="fas fa-user"></i><span>Incomes</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+        <ul id="income-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+                <a href="{{ route('income.index') }}">
+                    <i class="bi bi-circle"></i><span>All Incomes</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('income.create') }}">
+                    <i class="bi bi-circle"></i><span>Add Income</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    {{-- End Income Nav --}}
+
+    {{-- Start Loan Nav --}}
+    <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#loan-nav" data-bs-toggle="collapse" href="#">
+             <i class="fas fa-user"></i><span>Loan</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+        <ul id="loan-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+                <a href="{{ route('loan.index') }}">
+                    <i class="bi bi-circle"></i><span>All Loan</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('loan.create') }}">
+                    <i class="bi bi-circle"></i><span>Add Loan</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    {{-- End Loan Nav --}}
+    
+
     {{-- Start Payment Methods Nav --}}
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#payment_method-nav" data-bs-toggle="collapse" href="#">
@@ -205,8 +264,6 @@
             </li>
         </ul>
     </li><!-- End Reports Nav -->
-
-
 
     <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#settings-nav" data-bs-toggle="collapse" href="#">

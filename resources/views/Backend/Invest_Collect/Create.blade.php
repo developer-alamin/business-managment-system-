@@ -118,7 +118,7 @@
                 $("button.pick")
                 .removeClass("btn-primary")
                 .addClass("btn-outline-primary")
-                .text('Pick');
+                .text('Add Collection');
                 $("button.close_btn").addClass('d-none');
 
                 $(this).removeClass('btn-outline-primary')
@@ -135,7 +135,10 @@
 
             $(".close_btn").click(function(e){
                 e.preventDefault();
-                $(this).addClass('d-none').prev().text("Add Collection");
+                $(this).addClass('d-none').prev()
+                .addClass("btn-outline-primary")
+                .removeClass("btn-primary")
+                .text("Add Collection");
                 invColImg.hide();
                 invColId.val('');
                 investorName.addClass('d-none').find('span').text('');

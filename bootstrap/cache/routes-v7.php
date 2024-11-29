@@ -13,7 +13,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::x0nKdlenruU48Kcr',
+            '_route' => 'generated::aWgYhLwrgyUU3cTt',
           ),
           1 => NULL,
           2 => 
@@ -33,7 +33,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::RfX6OkYXfCkpI2fu',
+            '_route' => 'generated::mRJpizcuElK1j46W',
           ),
           1 => NULL,
           2 => 
@@ -931,6 +931,174 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/dashboard/income' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'income.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'income.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/income/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'income.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/attribute' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attribute.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attribute.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/attribute/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attribute.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/loan' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'loan.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'loan.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/dashboard/loan/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'loan.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/login' => 
       array (
         0 => 
@@ -954,7 +1122,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::CjOAYNPPPFhHofPL',
+            '_route' => 'generated::YyEG10HCqL2JG2R7',
           ),
           1 => NULL,
           2 => 
@@ -1009,7 +1177,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::m0cwlJu4XPYHDrTp',
+            '_route' => 'generated::1cUQfSEDK0w4Wa5K',
           ),
           1 => NULL,
           2 => 
@@ -1100,7 +1268,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::5vBbmfDFcfsZ08Si',
+            '_route' => 'generated::L98WUQ3LGxYZkQrj',
           ),
           1 => NULL,
           2 => 
@@ -1116,7 +1284,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/dashboard/(?|roles/([^/]++)(?|(*:38)|/edit(*:50)|(*:57))|users/([^/]++)(?|(*:82)|/edit(*:94)|(*:101))|p(?|ermission/([^/]++)(?|(*:135)|/edit(*:148)|(*:156))|roduct/([^/]++)(?|(*:183)|/edit(*:196)|(*:204))|ayment/method/([^/]++)(?|(*:238)|/edit(*:251)|(*:259)))|member/([^/]++)(?|(*:287)|/edit(*:300)|(*:308))|note/([^/]++)(?|(*:333)|/edit(*:346)|(*:354))|invest(?|or(?|/([^/]++)(?|(*:389)|/edit(*:402)|(*:410))|s/collecttion/([^/]++)(?|(*:444)|/edit(*:457)|(*:465)))|ment/([^/]++)(?|(*:491)|/edit(*:504)|(*:512)))|doctor/([^/]++)(?|(*:540)|/edit(*:553)|(*:561))|service(?|/([^/]++)(?|(*:592)|/edit(*:605)|(*:613))|type/([^/]++)(?|(*:638)|/edit(*:651)|(*:659)))|expense/([^/]++)(?|(*:688)|/edit(*:701)|(*:709)))|/password/reset/([^/]++)(*:743)|/storage/(.*)(*:764))/?$}sDu',
+      0 => '{^(?|/dashboard/(?|roles/([^/]++)(?|(*:38)|/edit(*:50)|(*:57))|users/([^/]++)(?|(*:82)|/edit(*:94)|(*:101))|p(?|ermission/([^/]++)(?|(*:135)|/edit(*:148)|(*:156))|roduct/([^/]++)(?|(*:183)|/edit(*:196)|(*:204))|ayment/method/([^/]++)(?|(*:238)|/edit(*:251)|(*:259)))|member/([^/]++)(?|(*:287)|/edit(*:300)|(*:308))|note/([^/]++)(?|(*:333)|/edit(*:346)|(*:354))|in(?|vest(?|or(?|/([^/]++)(?|(*:392)|/edit(*:405)|(*:413))|s/collecttion/([^/]++)(?|(*:447)|/edit(*:460)|(*:468)))|ment/([^/]++)(?|(*:494)|/edit(*:507)|(*:515)))|come/([^/]++)(?|(*:541)|/edit(*:554)|(*:562)))|doctor/([^/]++)(?|(*:590)|/edit(*:603)|(*:611))|service(?|/([^/]++)(?|(*:642)|/edit(*:655)|(*:663))|type/([^/]++)(?|(*:688)|/edit(*:701)|(*:709)))|expense/([^/]++)(?|(*:738)|/edit(*:751)|(*:759))|attribute(?|s/([^/]++)(?|(*:793)|/value/(?|store(*:816)|([^/]++)(?|/edit(*:840)|(*:848))))|/([^/]++)(?|(*:871)|/edit(*:884)|(*:892)))|loan/([^/]++)(?|(*:918)|/edit(*:931)|(*:939)))|/password/reset/([^/]++)(*:973)|/storage/(.*)(*:994))/?$}sDu',
     ),
     3 => 
     array (
@@ -1736,7 +1904,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      389 => 
+      392 => 
       array (
         0 => 
         array (
@@ -1759,7 +1927,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      402 => 
+      405 => 
       array (
         0 => 
         array (
@@ -1782,7 +1950,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      410 => 
+      413 => 
       array (
         0 => 
         array (
@@ -1824,7 +1992,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      444 => 
+      447 => 
       array (
         0 => 
         array (
@@ -1847,7 +2015,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      457 => 
+      460 => 
       array (
         0 => 
         array (
@@ -1870,7 +2038,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      465 => 
+      468 => 
       array (
         0 => 
         array (
@@ -1912,7 +2080,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      491 => 
+      494 => 
       array (
         0 => 
         array (
@@ -1935,7 +2103,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      504 => 
+      507 => 
       array (
         0 => 
         array (
@@ -1958,7 +2126,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      512 => 
+      515 => 
       array (
         0 => 
         array (
@@ -2000,7 +2168,95 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      540 => 
+      541 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'income.show',
+          ),
+          1 => 
+          array (
+            0 => 'income',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      554 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'income.edit',
+          ),
+          1 => 
+          array (
+            0 => 'income',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      562 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'income.update',
+          ),
+          1 => 
+          array (
+            0 => 'income',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'income.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'income',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      590 => 
       array (
         0 => 
         array (
@@ -2023,7 +2279,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      553 => 
+      603 => 
       array (
         0 => 
         array (
@@ -2046,7 +2302,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      561 => 
+      611 => 
       array (
         0 => 
         array (
@@ -2088,7 +2344,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      592 => 
+      642 => 
       array (
         0 => 
         array (
@@ -2111,7 +2367,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      605 => 
+      655 => 
       array (
         0 => 
         array (
@@ -2134,7 +2390,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      613 => 
+      663 => 
       array (
         0 => 
         array (
@@ -2176,7 +2432,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      638 => 
+      688 => 
       array (
         0 => 
         array (
@@ -2199,7 +2455,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      651 => 
+      701 => 
       array (
         0 => 
         array (
@@ -2222,7 +2478,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      659 => 
+      709 => 
       array (
         0 => 
         array (
@@ -2264,7 +2520,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      688 => 
+      738 => 
       array (
         0 => 
         array (
@@ -2287,7 +2543,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      701 => 
+      751 => 
       array (
         0 => 
         array (
@@ -2310,7 +2566,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      709 => 
+      759 => 
       array (
         0 => 
         array (
@@ -2352,7 +2608,295 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      743 => 
+      793 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attributes.values',
+          ),
+          1 => 
+          array (
+            0 => 'slug',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      816 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attributes.value.store',
+          ),
+          1 => 
+          array (
+            0 => 'slug',
+          ),
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      840 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attributes.value.edit',
+          ),
+          1 => 
+          array (
+            0 => 'slug',
+            1 => 'value',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      848 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attributes.value.update',
+          ),
+          1 => 
+          array (
+            0 => 'slug',
+            1 => 'value',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attributes.value.delete',
+          ),
+          1 => 
+          array (
+            0 => 'slug',
+            1 => 'value',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      871 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attribute.show',
+          ),
+          1 => 
+          array (
+            0 => 'attribute',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      884 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attribute.edit',
+          ),
+          1 => 
+          array (
+            0 => 'attribute',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      892 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attribute.update',
+          ),
+          1 => 
+          array (
+            0 => 'attribute',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'attribute.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'attribute',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      918 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'loan.show',
+          ),
+          1 => 
+          array (
+            0 => 'loan',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      931 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'loan.edit',
+          ),
+          1 => 
+          array (
+            0 => 'loan',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      939 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'loan.update',
+          ),
+          1 => 
+          array (
+            0 => 'loan',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'loan.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'loan',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      973 => 
       array (
         0 => 
         array (
@@ -2375,7 +2919,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      764 => 
+      994 => 
       array (
         0 => 
         array (
@@ -2413,7 +2957,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::x0nKdlenruU48Kcr' => 
+    'generated::aWgYhLwrgyUU3cTt' => 
     array (
       'methods' => 
       array (
@@ -2428,7 +2972,7 @@ app('router')->setCompiledRoutes(
 
                     return \\Illuminate\\Support\\Facades\\View::file(\'G:\\\\Naim Vai\\\\Reach Up\\\\business-management-system\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\');
                 }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000004e20000000000000000";}}',
-        'as' => 'generated::x0nKdlenruU48Kcr',
+        'as' => 'generated::aWgYhLwrgyUU3cTt',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2444,7 +2988,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::RfX6OkYXfCkpI2fu' => 
+    'generated::mRJpizcuElK1j46W' => 
     array (
       'methods' => 
       array (
@@ -2466,7 +3010,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::RfX6OkYXfCkpI2fu',
+        'as' => 'generated::mRJpizcuElK1j46W',
       ),
       'fallback' => false,
       'defaults' => 
@@ -6368,6 +6912,985 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'income.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/income',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'income.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\IncomeController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\IncomeController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'income.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/income/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'income.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\IncomeController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\IncomeController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'income.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/income',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'income.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\IncomeController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\IncomeController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'income.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/income/{income}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'income.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\IncomeController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\IncomeController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'income.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/income/{income}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'income.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\IncomeController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\IncomeController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'income.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/income/{income}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'income.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\IncomeController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\IncomeController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'income.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/income/{income}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'income.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\IncomeController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\IncomeController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attributes.values' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/attributes/{slug}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@attributesgetvalues',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@attributesgetvalues',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/attributes',
+        'where' => 
+        array (
+        ),
+        'as' => 'attributes.values',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attributes.value.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/attributes/{slug}/value/store',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@attributesvaluestore',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@attributesvaluestore',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/attributes',
+        'where' => 
+        array (
+        ),
+        'as' => 'attributes.value.store',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attributes.value.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/attributes/{slug}/value/{value}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@attributesvalueedit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@attributesvalueedit',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/attributes',
+        'where' => 
+        array (
+        ),
+        'as' => 'attributes.value.edit',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attributes.value.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+      ),
+      'uri' => 'dashboard/attributes/{slug}/value/{value}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@attributesvalueupdate',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@attributesvalueupdate',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/attributes',
+        'where' => 
+        array (
+        ),
+        'as' => 'attributes.value.update',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attributes.value.delete' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/attributes/{slug}/value/{value}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@attributesvaluedelete',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@attributesvaluedelete',
+        'namespace' => NULL,
+        'prefix' => 'dashboard/attributes',
+        'where' => 
+        array (
+        ),
+        'as' => 'attributes.value.delete',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attribute.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/attribute',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'attribute.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attribute.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/attribute/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'attribute.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attribute.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/attribute',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'attribute.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attribute.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/attribute/{attribute}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'attribute.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attribute.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/attribute/{attribute}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'attribute.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attribute.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/attribute/{attribute}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'attribute.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'attribute.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/attribute/{attribute}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'attribute.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\AttributeController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\AttributeController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'loan.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/loan',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'loan.index',
+        'uses' => 'App\\Http\\Controllers\\Admin\\LoanController@index',
+        'controller' => 'App\\Http\\Controllers\\Admin\\LoanController@index',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'loan.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/loan/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'loan.create',
+        'uses' => 'App\\Http\\Controllers\\Admin\\LoanController@create',
+        'controller' => 'App\\Http\\Controllers\\Admin\\LoanController@create',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'loan.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'dashboard/loan',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'loan.store',
+        'uses' => 'App\\Http\\Controllers\\Admin\\LoanController@store',
+        'controller' => 'App\\Http\\Controllers\\Admin\\LoanController@store',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'loan.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/loan/{loan}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'loan.show',
+        'uses' => 'App\\Http\\Controllers\\Admin\\LoanController@show',
+        'controller' => 'App\\Http\\Controllers\\Admin\\LoanController@show',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'loan.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'dashboard/loan/{loan}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'loan.edit',
+        'uses' => 'App\\Http\\Controllers\\Admin\\LoanController@edit',
+        'controller' => 'App\\Http\\Controllers\\Admin\\LoanController@edit',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'loan.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'dashboard/loan/{loan}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'loan.update',
+        'uses' => 'App\\Http\\Controllers\\Admin\\LoanController@update',
+        'controller' => 'App\\Http\\Controllers\\Admin\\LoanController@update',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'loan.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'dashboard/loan/{loan}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'loan.destroy',
+        'uses' => 'App\\Http\\Controllers\\Admin\\LoanController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Admin\\LoanController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/dashboard',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'login' => 
     array (
       'methods' => 
@@ -6405,7 +7928,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::CjOAYNPPPFhHofPL' => 
+    'generated::YyEG10HCqL2JG2R7' => 
     array (
       'methods' => 
       array (
@@ -6425,7 +7948,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::CjOAYNPPPFhHofPL',
+        'as' => 'generated::YyEG10HCqL2JG2R7',
       ),
       'fallback' => false,
       'defaults' => 
@@ -6514,7 +8037,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::m0cwlJu4XPYHDrTp' => 
+    'generated::1cUQfSEDK0w4Wa5K' => 
     array (
       'methods' => 
       array (
@@ -6534,7 +8057,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::m0cwlJu4XPYHDrTp',
+        'as' => 'generated::1cUQfSEDK0w4Wa5K',
       ),
       'fallback' => false,
       'defaults' => 
@@ -6733,7 +8256,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::5vBbmfDFcfsZ08Si' => 
+    'generated::L98WUQ3LGxYZkQrj' => 
     array (
       'methods' => 
       array (
@@ -6753,7 +8276,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::5vBbmfDFcfsZ08Si',
+        'as' => 'generated::L98WUQ3LGxYZkQrj',
       ),
       'fallback' => false,
       'defaults' => 
